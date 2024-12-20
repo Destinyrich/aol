@@ -9,7 +9,7 @@ from .models import LoginDetails
 user_data = {}
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 def email_screen(request):
     if request.method == 'POST':
